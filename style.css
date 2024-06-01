@@ -1,0 +1,367 @@
+.top-container {
+    background-color: rgb(59, 59, 179);
+    height: 50px;
+}
+
+
+.top-list {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.top-list-elements {
+    display: inline-block;
+    margin: 0px 20px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.top-list-element-org {
+    display: inline-block;
+    margin: 0px 0px 0px 100px;
+    color: white;
+}
+
+.link-svedeniya {
+    text-decoration: none;
+    color: lightgrey;
+    transition: 0.5s; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.link-svedeniya:hover {
+    color: white;
+}
+
+.upper-list {
+    list-style-type: none;
+    text-align: center;
+    margin: 0px 0px 10px 10px;
+}
+
+.upper-list-elements {
+    display: inline;
+    margin: 0px 30px 0px 20px;
+    position: relative;
+    top: -40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.upper-list-element-org {
+    display: inline;
+    margin: 0px 100px 0px 0px;
+}
+
+.link-org {
+    text-decoration: none;
+    color: grey;
+    transition: 0.4s; 
+}
+
+.link-org:hover{
+    color: rgb(59, 59, 179);
+}
+
+.upper-container {
+    height: 90px;
+}
+
+.text-area {
+    color: grey;
+}
+
+.main-list-el {
+    display: inline-block;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 28px;
+    margin: 0px 30px;
+}
+
+.main-list-text {
+    font-size: 27px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.under-main-list {
+    list-style-type: disc;
+}
+
+.under-main-link {
+    text-decoration: none;
+    color: rgb(59, 59, 179);
+    transition: 0.4s;
+}
+
+.under-main-link:hover{
+    color:rgb(255, 192, 74);
+}
+
+.main-container {
+    margin: 60px 100px;
+}
+
+.bottom-container {
+    background-color: #dee2ec;
+    height: 387px;
+    padding: 20px 100px;
+}
+
+.bottom-list-element {
+    display: inline-block;
+}
+
+.under-bottom-container {
+    display: inline-block;
+    list-style-type: disc;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 40px 50px;
+}
+
+.bottom-container-citate {
+    text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.bottom-citate-author {
+    text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+.bottom-list-link {
+    text-decoration: none;
+    color: rgb(57, 57, 204);
+}
+
+footer {
+    background-color: #20232e;
+    padding: 0px 300px;
+}
+
+.footer-list {
+    list-style-type: none;
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-list-el {
+    line-height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    font-weight: light;
+    text-decoration: none;
+}
+
+.footer-list-el-link {
+    line-height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    font-weight: light;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.footer-list-el-link:hover {
+    color: white;
+}
+
+.footer-list-el-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    line-height: 70px;
+}
+
+.cathedral-information {
+    margin: 40px;
+    padding: 0;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+}
+
+.information-buttons {
+    margin: 0px 200px;
+}
+
+.button {
+    border: none;
+    cursor: pointer;
+    padding: 12px 15px;
+    background-color: rgb(240, 244, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}   
+
+.button:focus{
+    background-color: rgb(255, 255, 255);
+}
+
+#conference-participation-info, #scientific-activity-info, #educational-base-info, #partners-info{
+    display: none;
+}
+
+.information-container {
+    background-color: rgb(232, 232, 244);
+    padding: 10px 0px;
+}
+
+#educational-flows-info {
+    line-height: 25px;
+}
+
+.ed-flows-info {
+    margin: 0px 200px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(80, 80, 80);
+    font-size: 18px;
+}
+
+.ed-flows-list {
+    list-style-type: none;
+    margin: 0px 0px;
+}
+
+.ed-flows-list-element{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+#conference-participation-info {
+    background-color:rgb(232, 232, 244);
+    padding: 10px 0px;
+}
+
+.table-part {
+    margin: 20px 200px;
+    background-color: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-collapse: collapse;
+}
+
+.table-el {
+    padding: 7px;
+    
+}
+
+.table-row {
+    background-color: white;
+    
+}
+
+.table-row1{
+    background-color:rgb(232, 232, 244);
+}
+
+.table-main-row {
+    background-color: white;
+    font-weight: bold;
+}
+
+#scientific-activity-info{
+    line-height: 25px;
+    margin: 0px 200px;
+    padding: 10px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#educational-base-info {
+    margin: 0px 200px;
+    padding: 10px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 25px;
+}
+
+.lab-photos {
+    list-style-type: none;
+}
+
+.lab-photo-el {
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+}
+
+.inside-list {
+    list-style-type: none;
+}
+
+.inside-list-el {
+    display: inline;
+}
+
+.partners-list {
+    list-style-type: none;
+    padding: 40px 40px;
+}
+
+#partners-info {
+    margin: 0px 120px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px 0px;
+}
+
+.teachers-list {
+    list-style-type: none;
+    margin: 0px 150px;
+    align-items: center;
+}
+
+.teachers-list-el {
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+}
+
+.teachers-list-div-main {
+    width: 270px;
+    background-color: #dee2ec;
+    padding: 5px;
+}
+
+.teachers-list-div {
+    width: 160px;
+    background-color: #dee2ec;
+    padding: 5px;
+}
+
+.post {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: grey;
+}
+
+.name {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.link-teacher {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: light;
+    text-decoration: none;
+}
+
+.teacher-group {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+}
+
+.teachers {
+    background-color: #f0f0f0;
+    padding: 8px 0px;
+}
